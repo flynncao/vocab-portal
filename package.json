@@ -1,4 +1,5 @@
 {
+  "name": "xin-vocabulary",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@8.8.0",
@@ -48,6 +49,6 @@
     "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
-    "*": "eslint --fix"
+    "*": "eslint --fix --no-ignore"
   }
 }
