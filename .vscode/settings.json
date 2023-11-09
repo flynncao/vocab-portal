@@ -3,14 +3,15 @@
     "*.css": "postcss"
   },
 
+  "eslint.experimental.useFlatConfig": true,
   // Disable the default formatter
   "prettier.enable": false,
   "editor.formatOnSave": true,
 
   // Auto fix
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.organizeImports": false
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
   },
 
   // Silent the stylistic rules in you IDE, but still auto fix them
